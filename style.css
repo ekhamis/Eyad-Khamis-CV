@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: auto;
+    margin: auto;
+    max-width: 1024px;
+}
+
+.wrapper {
+    padding:10px;
+    font-family: tahoma; sans-serif;
+    font-size: .9em;
+    line-height: 1.5em;
+
+}
+
+.header {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    background-color: #696969;
+    box-shadow: 5px 5px 10px #999999;
+}
+
+.pic {
+    display: inline-block;
+    float: left;
+    margin: 10px 10px 5px;
+    border-radius: 20% 5%;
+    border: 1px dotted whitesmoke;
+}
+
+.text-header {
+    display: inline-block;
+    float: left;
+    width: auto;
+}
+
+.section_start {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    padding: 0px 20px 10px 20px;
+    box-shadow: 5px 5px 10px #999999;
+}
+
+h1 {
+    margin-top: 0px;
+    font-size:2em;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 1.4em;
+}
+
+h1, h3, h4 {
+    color: white;
+    margin: 5px 0px 20px 10px;
+}
+
+.clear {clear: both;}
+
+.work {
+    display: block;
+    float: left;
+}
+
+.work-logo {
+    float: left; 
+    display: block;
+    vertical-align: text-bottom;
+    max-width: 90px;
+    margin: 15px 15px 0px 0px;
+}
+
+.work-title, .education-place {
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+.work-company, .education-title, .work-span, .education-span {
+    line-height: .8em;
+}
+
+
+li {
+    margin: .5em 0;
+}
+
+hr {
+    margin: 10px 0px;
+    border: 1px darkred;
+    border-bottom-style: inset
+}
+
+.footer {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 12px;
+}
