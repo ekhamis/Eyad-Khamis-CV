@@ -41,6 +41,10 @@ body {
     width: auto;
 }
 
+.text-header h1 {
+    padding-top: 10px;
+}
+
 .section_start {
     display: block;
     float: left;
